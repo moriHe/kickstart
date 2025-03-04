@@ -4,22 +4,22 @@ return {
   cmd = 'Trouble',
   keys = {
     {
-      '<leader>cd',
+      '<leader>vd',
       '<cmd>Trouble diagnostics toggle<cr>',
       desc = '[D]iagnostics',
     },
     {
-      '<leader>cD',
+      '<leader>vD',
       '<cmd>Trouble diagnostics toggle filter.buf=0<cr>',
       desc = 'Buffer [D]iagnostics',
     },
     {
-      '<leader>cs',
+      '<leader>vs',
       '<cmd>Trouble symbols toggle focus=false<cr>',
       desc = '[S]ymbols',
     },
     {
-      '<leader>cr',
+      '<leader>vr',
       '<cmd>Trouble lsp toggle focus=false win.position=right<cr>',
       desc = '[R]eferences / Definitions / ... (Trouble)',
     },
@@ -29,7 +29,7 @@ return {
     --      desc = 'Location List (Trouble)',
     --    },
     {
-      '<leader>cq',
+      '<leader>vq',
       '<cmd>Trouble qflist toggle<cr>',
       desc = '[Q]uickfix List',
     },
