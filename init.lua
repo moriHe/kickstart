@@ -349,7 +349,9 @@ require('lazy').setup({
         { '<leader>c', group = '[C]ode' },
         { '<leader>g', group = '[G]o to Element' },
         { '<leader>l', group = '[L]ist' },
+        { '<leader>o', group = '[O]pen' },
         { '<leader>t', group = '[T]oggle' },
+        { '<leader>r', group = '[R]efactor' },
         --        { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
       },
     },
@@ -541,7 +543,7 @@ require('lazy').setup({
 
           -- Rename the variable under your cursor.
           --  Most Language Servers support renaming across files, etc.
-          map('<leader>gr', vim.lsp.buf.rename, '[R]ename')
+          map('<leader>rr', vim.lsp.buf.rename, '[R]ename')
 
           -- Execute a code action, usually your cursor needs to be on top of an error
           -- or a suggestion from your LSP for this to activate.
